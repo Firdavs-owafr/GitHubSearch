@@ -1,0 +1,120 @@
+.box-center{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #FEFEFE;
+    box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+    border-radius: 15px;
+    padding: 44px 48px;
+}
+.logo{
+    width: max-content;
+    margin-right: 37px;
+}
+.img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.headerr{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #2B3442;
+}
+.search-acc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0079FF;
+}
+.joinded{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #697C9A;
+}
+
+.bio{
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #4B6A9B;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 32px;
+}
+.repos-res{
+    width: 100%;
+    height: max-content;
+    padding: 15px 32px 17px 32px;
+    background: #F6F8FF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+.box-res{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.repos{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #4B6A9B;
+    margin-bottom: 1px;
+}
+
+.number{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #2B3442;
+    
+}
+.adress{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.local-add{
+    width: 160px;
+    display: flex;
+    margin-right: 50px;
+    color: #4B6A9B;
+}
+
+.local-add:last-child{
+    margin-right: 0px;
+}
+
+.logotip{
+    max-width: 100%;
+    width: max-content;
+    height: max-content;
+    margin-right: 20px;
+}
+.add-local{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
